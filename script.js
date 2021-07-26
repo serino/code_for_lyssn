@@ -3,7 +3,7 @@
 //DO THESE OBJECTS REALLY NEED TO CONTAIN STRINGS? WHY OR WHY NOT?
 //TALK ABOUT LOOPING THROUGH OBJECTS.
 
-// document.style.backgroundColor = "blue"
+document.body.style.backgroundColor = "lightblue"
 
 let arr = [{"fname":"esme", "lname":"sanchez", "id":1892038, "isTherapist":true},
 
