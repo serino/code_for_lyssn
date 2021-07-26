@@ -3,6 +3,8 @@
 //DO THESE OBJECTS REALLY NEED TO CONTAIN STRINGS? WHY OR WHY NOT?
 //TALK ABOUT LOOPING THROUGH OBJECTS.
 
+// document.style.backgroundColor = "blue"
+
 let arr = [{"fname":"esme", "lname":"sanchez", "id":1892038, "isTherapist":true},
 
 {"fname":"rick", "lname":"jeps", "id":1894024, "isTherapist":false},
@@ -25,11 +27,11 @@ function render(arr) {
     
     //CAN WE COMBINE THESE EVENT LISTENERS?
     pTag.addEventListener("mouseover", (event) => 
-      event.target.style.color = "red"
+      event.target.style.backgroundColor = "lightgrey"
     )
 
     pTag.addEventListener("mouseleave", (event) =>
-      event.target.style.color = "black"
+      event.target.style.backgroundColor = "white"
     )
     
     //CAN WE SIMPLIFY THIS?
