@@ -1,0 +1,16 @@
+/* HOW DO I KNOW WHETHER TO PAD THE TOP, BOTTOM, LEFT OR RIGHT? */
+p {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#mainDiv {
+  /* TALK ABOUT POSITION ABSOLUTE */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  /* WHAT IS WEBKITEXACTLY? */
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
