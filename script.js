@@ -17,14 +17,6 @@ function render(arr) {
     let pTag = document.createElement("p")
     mainDiv.appendChild(pTag)
     
-    pTag.addEventListener("mouseover", (event) => 
-      event.target.style.backgroundColor = "lightgrey"
-    )
-
-    pTag.addEventListener("mouseleave", (event) =>
-      event.target.style.backgroundColor = "white"
-    )
-    
     pTag.innerHTML = `${arr[i].lname.charAt(0).toUpperCase()}${arr[i].lname.slice(1)}, ${arr[i].fname.charAt(0).toUpperCase()}${arr[i].fname.slice(1)}`
   }
 }
