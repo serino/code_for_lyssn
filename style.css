@@ -14,16 +14,19 @@ body {
 	margin: 0;
 }
 
-p {
+li {
+  margin: 5px;
+  padding: 10px;
 	text-transform: capitalize;
 }
 
-p:hover {
+li:hover {
 	background-color: lightgrey;
 }
 
-#mainDiv {
+#listContainer {
 	background-color: white;
 	padding: 10px;
-	width: 250px;
+	width: 350px;
+  list-style: none;
 }
